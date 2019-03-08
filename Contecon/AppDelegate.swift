@@ -41,8 +41,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func showMainScreen() {
         
-        //print("El grupo desde el Application Delegate es:--- ")
-        //print (self.sessionManager.obtenerGrupoMovil())
+        print("El grupo desde el Application Delegate es:--- ")
+        print (self.sessionManager.obtenerGrupoMovil())
         self.window!.rootViewController = MainTabBarView()
         //self.window!.rootViewController = HomeViewController()
         window?.makeKeyAndVisible()
