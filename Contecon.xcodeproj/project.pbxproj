@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B269AEA200402FF00546A84 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B269AE9200402FF00546A84 /* GenericViewController.swift */; };
+		4B5E71F620F7B672008214AE /* HomeViewGobernadoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E71F520F7B672008214AE /* HomeViewGobernadoresController.swift */; };
+		4B63E35B20052517003E508D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B63E35A20052516003E508D /* MenuViewController.swift */; };
+		4B71F3841F9F8C5B00A24311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8291A61F8E78E400F7DC05 /* Assets.xcassets */; };
+		4B82919D1F8E78E400F7DC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82919C1F8E78E400F7DC05 /* AppDelegate.swift */; };
+		4B82919F1F8E78E400F7DC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82919E1F8E78E400F7DC05 /* ViewController.swift */; };
+		4B8291A21F8E78E400F7DC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8291A01F8E78E400F7DC05 /* Main.storyboard */; };
+		4B8291A51F8E78E400F7DC05 /* Contecon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291A31F8E78E400F7DC05 /* Contecon.xcdatamodeld */; };
+		4B8291A71F8E78E400F7DC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8291A61F8E78E400F7DC05 /* Assets.xcassets */; };
+		4B8291AA1F8E78E400F7DC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8291A81F8E78E400F7DC05 /* LaunchScreen.storyboard */; };
+		4B8291B51F8E78E400F7DC05 /* BaseWebViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291B41F8E78E400F7DC05 /* BaseWebViewAppTests.swift */; };
+		4B8291C21F8E7B2500F7DC05 /* MainTabBarViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291C11F8E7B2500F7DC05 /* MainTabBarViewSwift.swift */; };
+		4B8291C41F8E7BE800F7DC05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291C31F8E7BE800F7DC05 /* HomeViewController.swift */; };
+		4B8291C61F8E7C0200F7DC05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291C51F8E7C0200F7DC05 /* LoginViewController.swift */; };
+		4B8291CA1F8E7F1100F7DC05 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291C91F8E7F1100F7DC05 /* SessionManager.swift */; };
+		4B8291CC1F8E7FC400F7DC05 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291CB1F8E7FC400F7DC05 /* JSONManager.swift */; };
+		4B8291CF1F8E845F00F7DC05 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291CE1F8E845F00F7DC05 /* Reachability.swift */; };
+		4B8291D11F8E84F900F7DC05 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291D01F8E84F900F7DC05 /* ResponseObjectSerializable.swift */; };
+		4B8291D41F8E859700F7DC05 /* CVAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8291D31F8E859700F7DC05 /* CVAlertController.swift */; };
+		6F638CF6829856FB69795766 /* Pods_Contecon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0D35E877D43FA6FAD97A0D /* Pods_Contecon.framework */; };
+		DBDBFFEBD6B79FBB198928B1 /* Pods_PuenteVehicularGobernadoresTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0422F123AC64ED7752ADD548 /* Pods_PuenteVehicularGobernadoresTests.framework */; };
+		E4F695C27C75F37FFEFC0F94 /* Pods_ConteconTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F04514977BC0555E0B357ED /* Pods_ConteconTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8291B11F8E78E400F7DC05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8291911F8E78E400F7DC05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8291981F8E78E400F7DC05;
+			remoteInfo = ReconstruccionCDMX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0422F123AC64ED7752ADD548 /* Pods_PuenteVehicularGobernadoresTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuenteVehicularGobernadoresTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F12203EEBAD923EC969F19F /* Pods-Contecon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contecon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contecon/Pods-Contecon.release.xcconfig"; sourceTree = "<group>"; };
+		3993A332FAA58FF1EF6A7944 /* Pods-PuenteVehicularGobernadoresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuenteVehicularGobernadoresTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuenteVehicularGobernadoresTests/Pods-PuenteVehicularGobernadoresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DB51FA7388ADC26D66F076B /* Pods-ConteconTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConteconTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConteconTests/Pods-ConteconTests.debug.xcconfig"; sourceTree = "<group>"; };
+		471B4DF7A9A5D6EF5D420783 /* Pods_PuenteVehicularGobernadores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuenteVehicularGobernadores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483A8D1829E1934436850B5C /* Pods-PuenteVehicularGobernadores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuenteVehicularGobernadores.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuenteVehicularGobernadores/Pods-PuenteVehicularGobernadores.release.xcconfig"; sourceTree = "<group>"; };
+		4B269AE9200402FF00546A84 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		4B5E71F520F7B672008214AE /* HomeViewGobernadoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewGobernadoresController.swift; sourceTree = "<group>"; };
+		4B63E35A20052516003E508D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4B8291991F8E78E400F7DC05 /* Contecon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contecon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B82919C1F8E78E400F7DC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B82919E1F8E78E400F7DC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8291A11F8E78E400F7DC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8291A41F8E78E400F7DC05 /* ReconstruccionCDMX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReconstruccionCDMX.xcdatamodel; sourceTree = "<group>"; };
+		4B8291A61F8E78E400F7DC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8291A91F8E78E400F7DC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8291AB1F8E78E400F7DC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8291B01F8E78E400F7DC05 /* ConteconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConteconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8291B41F8E78E400F7DC05 /* BaseWebViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewAppTests.swift; sourceTree = "<group>"; };
+		4B8291B61F8E78E400F7DC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8291C11F8E7B2500F7DC05 /* MainTabBarViewSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewSwift.swift; sourceTree = "<group>"; };
+		4B8291C31F8E7BE800F7DC05 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B8291C51F8E7C0200F7DC05 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B8291C91F8E7F1100F7DC05 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4B8291CB1F8E7FC400F7DC05 /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		4B8291CE1F8E845F00F7DC05 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4B8291D01F8E84F900F7DC05 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		4B8291D31F8E859700F7DC05 /* CVAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAlertController.swift; sourceTree = "<group>"; };
+		52D8D22F66B294D8FF55D3F9 /* Pods-PuenteVehicularGobernadoresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuenteVehicularGobernadoresTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuenteVehicularGobernadoresTests/Pods-PuenteVehicularGobernadoresTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B14A1C0CA3904C211C5131E /* Pods-PuenteVehicularGobernadores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuenteVehicularGobernadores.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuenteVehicularGobernadores/Pods-PuenteVehicularGobernadores.debug.xcconfig"; sourceTree = "<group>"; };
+		69C562050F862E0C1BAA7DD5 /* Pods-ConteconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConteconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConteconTests/Pods-ConteconTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F04514977BC0555E0B357ED /* Pods_ConteconTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConteconTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8453EA79EC3539223F1FD323 /* Pods-Contecon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contecon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contecon/Pods-Contecon.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0D35E877D43FA6FAD97A0D /* Pods_Contecon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contecon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8291961F8E78E400F7DC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F638CF6829856FB69795766 /* Pods_Contecon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8291AD1F8E78E400F7DC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDBFFEBD6B79FBB198928B1 /* Pods_PuenteVehicularGobernadoresTests.framework in Frameworks */,
+				E4F695C27C75F37FFEFC0F94 /* Pods_ConteconTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228D4E79E371C23FCFA8E279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				471B4DF7A9A5D6EF5D420783 /* Pods_PuenteVehicularGobernadores.framework */,
+				0422F123AC64ED7752ADD548 /* Pods_PuenteVehicularGobernadoresTests.framework */,
+				AD0D35E877D43FA6FAD97A0D /* Pods_Contecon.framework */,
+				6F04514977BC0555E0B357ED /* Pods_ConteconTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8291901F8E78E400F7DC05 = {
+			isa = PBXGroup;
+			children = (
+				4B82919B1F8E78E400F7DC05 /* Contecon */,
+				4B8291B31F8E78E400F7DC05 /* ConteconTests */,
+				4B82919A1F8E78E400F7DC05 /* Products */,
+				818401297B902E1E018FF9A0 /* Pods */,
+				228D4E79E371C23FCFA8E279 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B82919A1F8E78E400F7DC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291991F8E78E400F7DC05 /* Contecon.app */,
+				4B8291B01F8E78E400F7DC05 /* ConteconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B82919B1F8E78E400F7DC05 /* Contecon */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291D21F8E856700F7DC05 /* Elements */,
+				4B8291CD1F8E83FF00F7DC05 /* Utilities */,
+				4B8291BF1F8E79F500F7DC05 /* Controllers */,
+				4B8291C01F8E7A1600F7DC05 /* Managers */,
+				4B82919C1F8E78E400F7DC05 /* AppDelegate.swift */,
+				4B82919E1F8E78E400F7DC05 /* ViewController.swift */,
+				4B8291A01F8E78E400F7DC05 /* Main.storyboard */,
+				4B8291A61F8E78E400F7DC05 /* Assets.xcassets */,
+				4B8291A81F8E78E400F7DC05 /* LaunchScreen.storyboard */,
+				4B8291AB1F8E78E400F7DC05 /* Info.plist */,
+				4B8291A31F8E78E400F7DC05 /* Contecon.xcdatamodeld */,
+			);
+			path = Contecon;
+			sourceTree = "<group>";
+		};
+		4B8291B31F8E78E400F7DC05 /* ConteconTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291B41F8E78E400F7DC05 /* BaseWebViewAppTests.swift */,
+				4B8291B61F8E78E400F7DC05 /* Info.plist */,
+			);
+			path = ConteconTests;
+			sourceTree = "<group>";
+		};
+		4B8291BF1F8E79F500F7DC05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291C11F8E7B2500F7DC05 /* MainTabBarViewSwift.swift */,
+				4B8291C31F8E7BE800F7DC05 /* HomeViewController.swift */,
+				4B8291C51F8E7C0200F7DC05 /* LoginViewController.swift */,
+				4B63E35A20052516003E508D /* MenuViewController.swift */,
+				4B8291D31F8E859700F7DC05 /* CVAlertController.swift */,
+				4B269AE9200402FF00546A84 /* GenericViewController.swift */,
+				4B5E71F520F7B672008214AE /* HomeViewGobernadoresController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4B8291C01F8E7A1600F7DC05 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291C91F8E7F1100F7DC05 /* SessionManager.swift */,
+				4B8291CB1F8E7FC400F7DC05 /* JSONManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		4B8291CD1F8E83FF00F7DC05 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4B8291CE1F8E845F00F7DC05 /* Reachability.swift */,
+				4B8291D01F8E84F900F7DC05 /* ResponseObjectSerializable.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4B8291D21F8E856700F7DC05 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		818401297B902E1E018FF9A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B14A1C0CA3904C211C5131E /* Pods-PuenteVehicularGobernadores.debug.xcconfig */,
+				483A8D1829E1934436850B5C /* Pods-PuenteVehicularGobernadores.release.xcconfig */,
+				3993A332FAA58FF1EF6A7944 /* Pods-PuenteVehicularGobernadoresTests.debug.xcconfig */,
+				52D8D22F66B294D8FF55D3F9 /* Pods-PuenteVehicularGobernadoresTests.release.xcconfig */,
+				8453EA79EC3539223F1FD323 /* Pods-Contecon.debug.xcconfig */,
+				1F12203EEBAD923EC969F19F /* Pods-Contecon.release.xcconfig */,
+				3DB51FA7388ADC26D66F076B /* Pods-ConteconTests.debug.xcconfig */,
+				69C562050F862E0C1BAA7DD5 /* Pods-ConteconTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8291981F8E78E400F7DC05 /* Contecon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8291B91F8E78E400F7DC05 /* Build configuration list for PBXNativeTarget "Contecon" */;
+			buildPhases = (
+				FB58C1E1051C2FFEB588429F /* [CP] Check Pods Manifest.lock */,
+				4B8291951F8E78E400F7DC05 /* Sources */,
+				4B8291961F8E78E400F7DC05 /* Frameworks */,
+				4B8291971F8E78E400F7DC05 /* Resources */,
+				7F0239AD41831DE0EC5FEBAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contecon;
+			productName = ReconstruccionCDMX;
+			productReference = 4B8291991F8E78E400F7DC05 /* Contecon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8291AF1F8E78E400F7DC05 /* ConteconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8291BC1F8E78E400F7DC05 /* Build configuration list for PBXNativeTarget "ConteconTests" */;
+			buildPhases = (
+				07FAB747661D70D17875121C /* [CP] Check Pods Manifest.lock */,
+				4B8291AC1F8E78E400F7DC05 /* Sources */,
+				4B8291AD1F8E78E400F7DC05 /* Frameworks */,
+				4B8291AE1F8E78E400F7DC05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8291B21F8E78E400F7DC05 /* PBXTargetDependency */,
+			);
+			name = ConteconTests;
+			productName = ReconstruccionCDMXTests;
+			productReference = 4B8291B01F8E78E400F7DC05 /* ConteconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8291911F8E78E400F7DC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Erika Esther Torres Verdin";
+				TargetAttributes = {
+					4B8291981F8E78E400F7DC05 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FR4NT4555N;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					4B8291AF1F8E78E400F7DC05 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FR4NT4555N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B8291981F8E78E400F7DC05;
+					};
+				};
+			};
+			buildConfigurationList = 4B8291941F8E78E400F7DC05 /* Build configuration list for PBXProject "Contecon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8291901F8E78E400F7DC05;
+			productRefGroup = 4B82919A1F8E78E400F7DC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8291981F8E78E400F7DC05 /* Contecon */,
+				4B8291AF1F8E78E400F7DC05 /* ConteconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8291971F8E78E400F7DC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8291AA1F8E78E400F7DC05 /* LaunchScreen.storyboard in Resources */,
+				4B8291A71F8E78E400F7DC05 /* Assets.xcassets in Resources */,
+				4B8291A21F8E78E400F7DC05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8291AE1F8E78E400F7DC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B71F3841F9F8C5B00A24311 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FAB747661D70D17875121C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConteconTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0239AD41831DE0EC5FEBAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Contecon/Pods-Contecon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDZSwiftCommonCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contecon/Pods-Contecon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB58C1E1051C2FFEB588429F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contecon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8291951F8E78E400F7DC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8291C61F8E7C0200F7DC05 /* LoginViewController.swift in Sources */,
+				4B8291C41F8E7BE800F7DC05 /* HomeViewController.swift in Sources */,
+				4B8291A51F8E78E400F7DC05 /* Contecon.xcdatamodeld in Sources */,
+				4B8291D41F8E859700F7DC05 /* CVAlertController.swift in Sources */,
+				4B8291C21F8E7B2500F7DC05 /* MainTabBarViewSwift.swift in Sources */,
+				4B269AEA200402FF00546A84 /* GenericViewController.swift in Sources */,
+				4B82919F1F8E78E400F7DC05 /* ViewController.swift in Sources */,
+				4B8291CA1F8E7F1100F7DC05 /* SessionManager.swift in Sources */,
+				4B8291CC1F8E7FC400F7DC05 /* JSONManager.swift in Sources */,
+				4B8291CF1F8E845F00F7DC05 /* Reachability.swift in Sources */,
+				4B63E35B20052517003E508D /* MenuViewController.swift in Sources */,
+				4B82919D1F8E78E400F7DC05 /* AppDelegate.swift in Sources */,
+				4B5E71F620F7B672008214AE /* HomeViewGobernadoresController.swift in Sources */,
+				4B8291D11F8E84F900F7DC05 /* ResponseObjectSerializable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8291AC1F8E78E400F7DC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8291B51F8E78E400F7DC05 /* BaseWebViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8291B21F8E78E400F7DC05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8291981F8E78E400F7DC05 /* Contecon */;
+			targetProxy = 4B8291B11F8E78E400F7DC05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8291A01F8E78E400F7DC05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8291A11F8E78E400F7DC05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8291A81F8E78E400F7DC05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8291A91F8E78E400F7DC05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8291B71F8E78E400F7DC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8291B81F8E78E400F7DC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8291BA1F8E78E400F7DC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8453EA79EC3539223F1FD323 /* Pods-Contecon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR4NT4555N;
+				INFOPLIST_FILE = "$(SRCROOT)/Contecon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calymayor.Contecon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B8291BB1F8E78E400F7DC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F12203EEBAD923EC969F19F /* Pods-Contecon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR4NT4555N;
+				INFOPLIST_FILE = "$(SRCROOT)/Contecon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.calymayor.Contecon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B8291BD1F8E78E400F7DC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB51FA7388ADC26D66F076B /* Pods-ConteconTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FR4NT4555N;
+				INFOPLIST_FILE = BaseWebViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.calymayor.basewebviewapp.BaseWebViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contecon.app/Contecon";
+			};
+			name = Debug;
+		};
+		4B8291BE1F8E78E400F7DC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C562050F862E0C1BAA7DD5 /* Pods-ConteconTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FR4NT4555N;
+				INFOPLIST_FILE = BaseWebViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.calymayor.basewebviewapp.BaseWebViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contecon.app/Contecon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8291941F8E78E400F7DC05 /* Build configuration list for PBXProject "Contecon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8291B71F8E78E400F7DC05 /* Debug */,
+				4B8291B81F8E78E400F7DC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8291B91F8E78E400F7DC05 /* Build configuration list for PBXNativeTarget "Contecon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8291BA1F8E78E400F7DC05 /* Debug */,
+				4B8291BB1F8E78E400F7DC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8291BC1F8E78E400F7DC05 /* Build configuration list for PBXNativeTarget "ConteconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8291BD1F8E78E400F7DC05 /* Debug */,
+				4B8291BE1F8E78E400F7DC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B8291A31F8E78E400F7DC05 /* Contecon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B8291A41F8E78E400F7DC05 /* ReconstruccionCDMX.xcdatamodel */,
+			);
+			currentVersion = 4B8291A41F8E78E400F7DC05 /* ReconstruccionCDMX.xcdatamodel */;
+			path = Contecon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B8291911F8E78E400F7DC05 /* Project object */;
+}

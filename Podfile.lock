@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Gloss (1.2.4)
+  - IDZSwiftCommonCrypto (0.10.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Gloss (~> 1.2.4)
+  - IDZSwiftCommonCrypto
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Gloss
+    - IDZSwiftCommonCrypto
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Gloss: 4e036074610fdb993abcb958ebcd7332588e2333
+  IDZSwiftCommonCrypto: 4eef2c46e262dfbcbc1fd76365e066336680ad7d
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 0a4159f903fa6a4bf99540b9d155ac70022c017b
+
+COCOAPODS: 1.5.3
